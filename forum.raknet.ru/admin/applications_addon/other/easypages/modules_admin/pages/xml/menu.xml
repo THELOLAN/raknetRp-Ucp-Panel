@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Manage Pages</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Manage Pages</subitemtitle>
+					<subsection>pages</subsection>
+					<subitemurl>do=display</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

@@ -1,0 +1,3 @@
+Platform.init();
+
+Platform.ready([]);

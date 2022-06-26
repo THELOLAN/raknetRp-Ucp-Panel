@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Easy Pages</grouptitle>
+		<items>
+			<item>
+				<key>block_create</key>
+				<string>Can create new static block?</string>
+			</item>
+			<item>
+				<key>block_edit</key>
+				<string>Can edit existing static blocks?</string>
+			</item>
+			<item>
+				<key>block_delete</key>
+				<string>Can delete static blocks?</string>
+			</item>
+			<item>
+				<key>block_php</key>
+				<string>Can create and edit blocks containing PHP?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

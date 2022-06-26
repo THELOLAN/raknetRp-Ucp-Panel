@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingexport>
+  <settinggroup>
+    <setting>
+      <conf_is_title>1</conf_is_title>
+      <conf_title_keyword>easy_pages</conf_title_keyword>
+      <conf_title_title>Easy Pages</conf_title_title>
+      <conf_title_desc>Settings for the Easy Pages application.</conf_title_desc>
+      <conf_title_tab>Hooks</conf_title_tab>
+      <conf_title_app>easypages</conf_title_app>
+      <conf_title_noshow>0</conf_title_noshow>
+    </setting>
+    <setting>
+      <conf_title>Default Page</conf_title>
+      <conf_description>If you enable the public application tab, this page will be shown by default.</conf_description>
+      <conf_group>48</conf_group>
+      <conf_type>dropdown</conf_type>
+      <conf_key>ep_default_page</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra>0=None (show error)</conf_extra>
+      <conf_evalphp><![CDATA[if ( $show == 1 ) {
+	$this->DB->build( array(
+		'select' => 'page_key, page_title',
+		'from'   => 'ep_pages',
+		'order'  => 'page_title ASC' ) );
+	
+	$o = $this->DB->execute();
+	while( $row = $this->DB->fetch($o) ) {
+		$r['conf_extra'] .= "&#092;n{$row['page_key']}={$row['page_title']}";
+	}
+	trim($r['conf_extra']);
+}]]></conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>2</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords>pages, default, page</conf_keywords>
+      <conf_title_keyword>easy_pages</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Cache Time to Live (minutes)</conf_title>
+      <conf_description>Force cached pages to expire and be re-cached after this number of minutes. For example, this could be used to cache a PHP page for faster loads, but still allow it to be updated every 15 minutes. Enter 0 to only update cached pages when the page is modified.</conf_description>
+      <conf_group>48</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>ep_cache_ttl</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp>if( $save == 1 ) {&#13;
+    $value = intval($value);&#13;
+}</conf_evalphp>
+      <conf_protected>1</conf_protected>
+      <conf_position>3</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords>easy pages, page, cache, lifetime, ttl, time to live, expire</conf_keywords>
+      <conf_title_keyword>easy_pages</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Auto-load WYSIWYG Editor</conf_title>
+      <conf_description>Automatically load the WYSIWYG editor. Although useful, it can cause issues when dealing with advanced HTML or Javascript.</conf_description>
+      <conf_group>48</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ep_wysiwyg_default</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>4</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords>wysiwyg, editor, easy pages, load</conf_keywords>
+      <conf_title_keyword>easy_pages</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Parse BBCode in Pages</conf_title>
+      <conf_description><![CDATA[This allows you to use BBCode tags such as 'quote' and 'code' in your pages, however, it can cause spacing issues and interfere with advanced HTML. Individual pages override this setting.]]></conf_description>
+      <conf_group>48</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>ep_parse_bbcode</conf_key>
+      <conf_default>1</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>5</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords>bbcode, parse, easy pages</conf_keywords>
+      <conf_title_keyword>easy_pages</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+  </settinggroup>
+</settingexport>

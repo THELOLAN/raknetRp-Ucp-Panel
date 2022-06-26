@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Manage Static Blocks</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Manage Static Blocks</subitemtitle>
+					<subsection>blocks</subsection>
+					<subitemurl>do=display</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

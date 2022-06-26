@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<information>
+  <data>
+    <name>Easy Pages</name>
+    <public_name>Pages</public_name>
+    <hide_tab>1</hide_tab>
+    <author>Ryan Hoerr</author>
+    <description>Add pages with any content you desire through this application.</description>
+    <disabledatinstall>0</disabledatinstall>
+    <global_caches/>
+    <website>http://www.sublimism.com</website>
+    <update_check>http://www.sublimism.com/ipbVersionCheck.php?hook=sld_easy_pages</update_check>
+    <templategroups/>
+  </data>
+</information>

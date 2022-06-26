@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>ep_access_denied</word_key>
+      <word_default>You do not have permission to view this page.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>public_global</word_pack>
+      <word_key>ep_not_found</word_key>
+      <word_default>Sorry, we could not locate the page you are requesting to view.</word_default>
+    </lang>
+  </languagegroup>
+</languageexport>

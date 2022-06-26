@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_php_desc</word_key>
+      <word_default>If yes, the page is parsed and executed at runtime. Cannot use with WYSWIYG editor.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_php_desc</word_key>
+      <word_default><![CDATA[If yes, the block is parsed and executed with the page. Each block is executed sequentially <i>after</i> the main page. Cannot use with WYSIWYG editor.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_parse_php</word_key>
+      <word_default>Parse PHP</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_cache_page_desc</word_key>
+      <word_default>If yes, the page will be cached and only update when the cache expires or the page is modified. The page will load faster, but may not be desired if PHP is used.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_cache_page</word_key>
+      <word_default>Cache Page</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_meta_desc_desc</word_key>
+      <word_default>(Optional) Enter a page description for search engine results.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_meta_desc</word_key>
+      <word_default>Meta Description</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_meta_key_desc</word_key>
+      <word_default>(Optional) Enter page keywords, separated by a comma.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_advanced</word_key>
+      <word_default>Advanced Settings</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_meta_key</word_key>
+      <word_default>Meta Keywords</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_basic</word_key>
+      <word_default>Basic Settings</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_view</word_key>
+      <word_default>View this page</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_del</word_key>
+      <word_default>Delete this page</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_edit</word_key>
+      <word_default>Edit this page</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_updated</word_key>
+      <word_default>Updated</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_submit</word_key>
+      <word_default>Save</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_title</word_key>
+      <word_default>Title</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_use_wrapper</word_key>
+      <word_default>Use IP.Board Skin</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_savecontinue</word_key>
+      <word_default>Save and Continue Edit</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_remove</word_key>
+      <word_default>Delete</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_use_wrapper_desc</word_key>
+      <word_default>If yes, the page will be inserted inside the forum skin. If no, you must provide the complete page HTML yourself.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_title_desc</word_key>
+      <word_default>Enter the page title to be displayed.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_title</word_key>
+      <word_default>Title</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_settings</word_key>
+      <word_default>Page Settings</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_key_desc</word_key>
+      <word_default><![CDATA[Enter the page URL key. No special characters. The page can be accessed at:<br /> %s]]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_key</word_key>
+      <word_default>URL Key</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_editing</word_key>
+      <word_default><![CDATA[Editing Page '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_did_add</word_key>
+      <word_default>New page added.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_did_delete</word_key>
+      <word_default>Page deleted.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_did_edit</word_key>
+      <word_default>Page edited.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_content</word_key>
+      <word_default>Page Content</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_page_content_desc</word_key>
+      <word_default>Enter the content of the page here. You may use HTML, BBCode, or the WYSIWYG editor.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_pages</word_key>
+      <word_default>Pages</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_no_blocks_found</word_key>
+      <word_default>No blocks have been created yet.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_options</word_key>
+      <word_default>Options</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_no_pages_found</word_key>
+      <word_default>No pages have been created yet.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_need_title</word_key>
+      <word_default>You must enter a title.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_long_field</word_key>
+      <word_default>The title or key field was too long. Please shorten it.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_manage_blocks</word_key>
+      <word_default>Manage Static Blocks</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_manage_pages</word_key>
+      <word_default>Manage Pages</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_page_deleted</word_key>
+      <word_default><![CDATA[Deleted page '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_page_edited</word_key>
+      <word_default><![CDATA[Edited page '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_page_added</word_key>
+      <word_default><![CDATA[Added page '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_block_added</word_key>
+      <word_default><![CDATA[Added static block '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_block_deleted</word_key>
+      <word_default><![CDATA[Deleted static block '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_log_block_edited</word_key>
+      <word_default><![CDATA[Edited static block '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_invalid_id</word_key>
+      <word_default>Invalid ID.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_load_wysiwyg</word_key>
+      <word_default>Load WYSIWYG Editor</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_groups</word_key>
+      <word_default>Group Permissions</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_groups_desc</word_key>
+      <word_default><![CDATA[Groups able to access this page. Leave blank for all groups.<br /><b>CTRL + Click</b> to select more than one.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_delete_confirm</word_key>
+      <word_default>Are you sure you want to delete?</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_created</word_key>
+      <word_default>Created</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_saved</word_key>
+      <word_default>Entry was successfully saved.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_title_desc</word_key>
+      <word_default>Enter the title of this block. This is only used in the Admin CP.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_title</word_key>
+      <word_default>Title</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_settings</word_key>
+      <word_default>Block Settings</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_key_desc</word_key>
+      <word_default><![CDATA[Enter the block key. No special characters. You can add this to a page with:<br /> <b>%s</b>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_key</word_key>
+      <word_default>Block Key</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_editing</word_key>
+      <word_default><![CDATA[Editing Static Block '%s']]></word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_did_delete</word_key>
+      <word_default>Static block deleted.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_did_edit</word_key>
+      <word_default>Static block edited.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_did_add</word_key>
+      <word_default>New static block added.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_blocks</word_key>
+      <word_default>Static Blocks</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_content</word_key>
+      <word_default>Content</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_block_content_desc</word_key>
+      <word_default>Enter the content of the block here. You may use HTML, BBCode, or the WYSIWYG editor.</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_add_new_block</word_key>
+      <word_default>Add a Static Block</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_add_new_page</word_key>
+      <word_default>Add a Page</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_app_title</word_key>
+      <word_default>Easy Pages</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_parse_bbcode</word_key>
+      <word_default>Parse BBCode</word_default>
+    </lang>
+    <lang>
+      <word_app>easypages</word_app>
+      <word_pack>admin_global</word_pack>
+      <word_key>ep_parse_bbcode_desc</word_key>
+      <word_default><![CDATA[If yes, you can use BBCode tags such as 'quote' or 'code'. However, this can cause spacing issues and interfere with advanced HTML or Javascript.]]></word_default>
+    </lang>
+  </languagegroup>
+</languageexport>
